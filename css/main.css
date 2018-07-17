@@ -65,6 +65,11 @@ div.main {
   padding: 2em 0 0 0;
 }
 
+div.wrapper {
+  overflow: hidden;
+  position: relative;
+}
+
 h1.logo {
   font-family: 'Raleway Dots';
   margin: 0em 0em 0em .5em;
@@ -74,7 +79,6 @@ h1.logo {
   color: rgba(237, 175, 120, 1);
   color: #242F40;
 }
-
 
 nav {
   display: flex;
@@ -120,7 +124,8 @@ div.intro > h2 {
 
 .affiliated img, .affiliated svg{
   margin: 20px;
-  width: 200px;
+  max-width: 200px;
+  max-height: 150px;
   display: inline-block;
 }
 
@@ -133,7 +138,7 @@ div.intro > h2 {
 #pattern span {
   display: inline-block;
   width: 200vw;
-  height: 600px;
+  height: 700px;
   background: linear-gradient(-250deg, rgba(237, 175, 120, .2) 15%,rgba(181, 229, 217, .2) 70%);
 }
 
